@@ -1,0 +1,62 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2341 >>
+stream
+0.080 0.170 0.290 rg 0 644 612 148 re f
+0.680 0.820 0.960 rg BT /F2 10 Tf 48 738 Td (BUSINESS REQUIREMENTS DOCUMENT) Tj ET
+1.000 1.000 1.000 rg BT /F2 25 Tf 48 701 Td (E-commerce Order Processor) Tj ET
+0.880 0.920 0.970 rg BT /F1 9 Tf 48 673 Td (Scope: implemented order processing, VIP discounts, and inventory rejection behavior) Tj ET
+0.100 0.350 0.620 rg BT /F2 11 Tf 48 609 Td (BUSINESS REQUIREMENTS) Tj ET
+0.860 0.890 0.920 rg 48 591 516 1 re f
+0.100 0.350 0.620 rg BT /F2 10 Tf 48 569 Td (REQ-001) Tj ET
+0.080 0.170 0.290 rg BT /F2 13 Tf 118 569 Td (Standard Processing) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 546 Td (The processor shall calculate an order subtotal by multiplying each item quantity by its) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 531 Td (unit price. For valid standard-customer orders with sufficient inventory, it shall reduce) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 516 Td (inventory by the ordered quantities and return the subtotal as the order total, with no) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 501 Td (discount.) Tj ET
+0.860 0.890 0.920 rg 48 477 516 1 re f
+0.100 0.350 0.620 rg BT /F2 10 Tf 48 455 Td (REQ-002) Tj ET
+0.080 0.170 0.290 rg BT /F2 13 Tf 118 455 Td (VIP Discounts) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 432 Td (The processor shall apply a 10% discount to the subtotal for VIP customers. Customer types) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 417 Td (other than VIP shall receive no discount. The order result shall report the subtotal,) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 402 Td (discount, and discounted total.) Tj ET
+0.860 0.890 0.920 rg 48 378 516 1 re f
+0.100 0.350 0.620 rg BT /F2 10 Tf 48 356 Td (REQ-003) Tj ET
+0.080 0.170 0.290 rg BT /F2 13 Tf 118 356 Td (Error Handling for Negative Inventory) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 333 Td (The processor shall reject orders when inventory is negative or insufficient for the) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 318 Td (requested quantities. A rejected order shall leave inventory unchanged; inventory) Tj ET
+0.120 0.160 0.220 rg BT /F1 9.5 Tf 48 303 Td (validation shall complete before any stock is reduced.) Tj ET
+0.860 0.890 0.920 rg 48 47 516 1 re f
+0.340 0.400 0.470 rg BT /F1 8 Tf 48 27 Td (Requirement scope is limited to behavior implemented in order_processor.py.) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000327 00000 n 
+0000000402 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2795
+%%EOF
